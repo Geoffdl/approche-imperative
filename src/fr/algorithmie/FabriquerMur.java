@@ -4,10 +4,6 @@ import java.awt.*;
 
 public class FabriquerMur {
 
-
-
-//    public static boolean FabriquerMur(int nbSmall, int nbBig, int length) {
-
     public static void main(String[] args){
 
         // const
