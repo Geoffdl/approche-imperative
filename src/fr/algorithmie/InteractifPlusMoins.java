@@ -12,7 +12,7 @@ public class InteractifPlusMoins {
         //scanner init
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Welcome to the number guessing game! Your goal is to match the number the computer picked in the least amount of tries. \nIt's somewhere between 0 and 100. \nGood luck!");
+        System.out.println("\nWelcome to the number guessing game! Your goal is to match the number the computer picked in the least amount of tries. \nIt's somewhere between 0 and 100. \nGood luck!");
         int nb;
 
         int timesPlayed = 1;
@@ -20,6 +20,8 @@ public class InteractifPlusMoins {
 
 
         while(!isFound){
+
+
             System.out.print("Guess a number: ");
             nb = scanner.nextInt();
             if(myRandomNb == nb){
@@ -32,7 +34,6 @@ public class InteractifPlusMoins {
                 System.out.println("Your guess is too high, try lower!");
                 timesPlayed++;
             }
-
         }
     }
 }
