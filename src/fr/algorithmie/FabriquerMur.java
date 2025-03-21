@@ -16,7 +16,7 @@ public class FabriquerMur {
         int taille = 11;
 
         // init result
-        Boolean constructible = false;
+        boolean constructible = false;
 
 
         int QtDeLarges = Math.min(nbBig, taille/B);
