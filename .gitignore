@@ -33,9 +33,14 @@ build/
 
 # Logs
 logs/
-*.log
+
 hs_err_pid*
 
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+**/out/
+**/*.class
+**/.idea/
+target/
