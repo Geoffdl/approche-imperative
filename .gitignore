@@ -42,5 +42,4 @@ Thumbs.db
 
 **/out/
 **/*.class
-**/.idea/
-target/
+**/.idea/target/
