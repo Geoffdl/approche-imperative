@@ -8,8 +8,8 @@ public class ExerciceTableauChaines {
 
         String[] villes = {"Paris", "Lyon", "Montpellier", "Bordeaux", "Nantes"};
 
-        for(int i = 0; i< villes.length; i++){
-            System.out.println(villes[i]);
+        for (String ville : villes) {
+            System.out.println(ville);
         }
 
         System.out.println(villes.length);
