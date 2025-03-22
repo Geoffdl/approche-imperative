@@ -8,25 +8,25 @@ The imperative approach is a programming paradigm that uses statements that chan
 
 ## Repository Structure
 
--   `/src` - Contains exercises to be completed during the course
--   `/solutions` - Contains exercise solutions (accessible after submission deadlines)
--   `/resources` - Additional materials and documentation
+- `/src` - Contains exercises to be completed during the course
+- `/solutions` - Contains exercise solutions (accessible after submission deadlines)
+- `/resources` - Additional materials and documentation
 
 ## Concepts Covered
 
--   Variables and data types
--   Control structures (if/else, switch, loops)
--   Arrays and collections
--   Functions and methods
--   Input/output operations
--   String manipulation
--   Basic algorithms
+- Variables and data types
+- Control structures (if/else, switch, loops)
+- Arrays and collections
+- Functions and methods
+- Input/output operations
+- String manipulation
+- Basic algorithms
 
 ## Prerequisites
 
--   JDK 11 or newer
--   A Java IDE (Eclipse, IntelliJ IDEA, VS Code with Java extensions)
--   Basic programming knowledge
+- JDK 11 or newer
+- A Java IDE (Eclipse, IntelliJ IDEA, VS Code with Java extensions)
+- Basic programming knowledge
 
 ## How to Use This Repository
 
@@ -37,8 +37,10 @@ The imperative approach is a programming paradigm that uses statements that chan
 
 ## Additional Resources
 
--   [Official Java Documentation](https://docs.oracle.com/en/java/)
--   [Java Tutorials (Oracle)](https://docs.oracle.com/javase/tutorial/)
--   [Additional Exercises](https://www.codingame.com/playgrounds/20782/exercices-de-base-en-java)
+- [Official Java Documentation](https://docs.oracle.com/en/java/)
+- [Java Tutorials (Oracle)](https://docs.oracle.com/javase/tutorial/)
+- [Additional Exercises](https://www.codingame.com/playgrounds/20782/exercices-de-base-en-java)
 
 ---
+
+© 2023 - Java Programming Course - Imperative Approach
