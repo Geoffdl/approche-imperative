@@ -10,13 +10,12 @@ public class CalculMoyenne {
         int myAverage;
         int mySum = myArray[0];
 
-        for(int i = 0; i< myArray.length; i++){
-            mySum+= myArray[i];
+        for (int i = 0; i < myArray.length; i++) {
+            mySum += myArray[i];
         }
         myAverage = mySum / myArray.length;
 
-        System.out.println("La moyenne de myArray est : "+ myAverage);
-
+        System.out.println("La moyenne de myArray est : " + myAverage);
 
 
     }

@@ -17,11 +17,11 @@ public class InversionContenu {
 
         System.out.println("In reversed order :");
         for (int val : myArraycopy) {
-            System.out.println(val);;
+            System.out.print(val+"; ");;
         }
-        System.out.println("In initial order :");
+        System.out.println("\nIn initial order :");
         for (int val : myArray) {
-            System.out.println(val);;
+            System.out.print(val+"; ");;
         }
 
     }

@@ -7,15 +7,14 @@ public class RechercheMax {
 
         // find max so that myArray[n] = highest value in myArray;
 
-            int maxVal = myArray[0];
+        int maxVal = myArray[0];
 
-            for(int i = 0; i< myArray.length; i++){
-                if(myArray[i] > maxVal){
-                    maxVal = myArray[i];
-                }
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] > maxVal) {
+                maxVal = myArray[i];
             }
+        }
         System.out.println(maxVal);
-
 
 
     }

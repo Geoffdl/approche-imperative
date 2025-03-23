@@ -7,7 +7,7 @@ public class InteractifPlusMoins {
     public static void main(String[] args) {
 
         //Generate random nb
-         int myRandomNb = (int)Math.round(Math.random()*100);
+        int myRandomNb = (int) Math.round(Math.random() * 100);
 
         //scanner init
         Scanner scanner = new Scanner(System.in);
@@ -19,18 +19,18 @@ public class InteractifPlusMoins {
         boolean isFound = false;
 
 
-        while(!isFound){
+        while (!isFound) {
 
 
             System.out.print("Guess a number: ");
             nb = scanner.nextInt();
-            if(myRandomNb == nb){
-                System.out.println("Congrats, you correctly guessed the number in "+timesPlayed+" attempts!");
+            if (myRandomNb == nb) {
+                System.out.println("Congrats, you correctly guessed the number in " + timesPlayed + " attempts!");
                 isFound = true;
-            } else if(myRandomNb >= nb){
+            } else if (myRandomNb >= nb) {
                 System.out.println("Your guess is too low, try higher!");
                 timesPlayed++;
-            } else{
+            } else {
                 System.out.println("Your guess is too high, try lower!");
                 timesPlayed++;
             }

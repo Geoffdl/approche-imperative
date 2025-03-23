@@ -8,15 +8,15 @@ public class FirstLast {
         boolean myBool = true;
 
 
-        for(int i=0; i<array1.length; i++)  {
-            if(array1.length >= 1 && (array1[i] == array1[array1.length -1 -i])){
+        for (int i = 0; i < array1.length; i++) {
+            if (array1.length >= 1 && (array1[i] == array1[array1.length - 1 - i])) {
                 myBool = true;
             } else {
                 myBool = false;
             }
         }
 
-        System.out.println(myBool? "Le premier et le dernier élément match" : "ça match pas");
+        System.out.println(myBool ? "Le premier et le dernier élément match" : "ça match pas");
 
     }
 }

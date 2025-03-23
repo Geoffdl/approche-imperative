@@ -8,30 +8,30 @@ public class AffichagePartiel {
         System.out.println("entier >3");
         for (int val : myArray) {
             if (val > 3) {
-                System.out.println(val);
+                System.out.print(val + "; ");
             }
         }
 
         // boucle + test entier pair
-        System.out.println("entier pair");
+        System.out.println("\nentier pair");
         for (int val : myArray) {
             if (val % 2 == 0) {
-                System.out.println(val);
+                System.out.print(val + "; ");
             }
         }
 
         // boucle + test index pair
-        System.out.println("index pair");
-        for(int i = 0; i < myArray.length; i+=2){
-            System.out.println(myArray[i]);
+        System.out.println("\nindex pair");
+        for (int i = 0; i < myArray.length; i += 2) {
+            System.out.print(myArray[i] + "; ");
 
         }
 
         //boucle+ test entier impair
-        System.out.println("entier impair");
+        System.out.println("\nentier impair");
         for (int val : myArray) {
             if (val % 2 != 0) {
-                System.out.println(val);
+                System.out.print(val + "; ");
             }
         }
     }

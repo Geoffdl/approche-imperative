@@ -8,15 +8,15 @@ public class FirstLast6 {
         boolean myBool = true;
 
 
-        for(int i=0; i<array1.length; i++)  {
-            if(array1.length >= 1 && (array1[i] == 6 || array1[array1.length -1 -i] == 6)){
+        for (int i = 0; i < array1.length; i++) {
+            if (array1.length >= 1 && (array1[i] == 6 || array1[array1.length - 1 - i] == 6)) {
                 myBool = true;
             } else {
                 myBool = false;
             }
         }
 
-        System.out.println(myBool? "Le premier ou le dernier élément = 6" : "pas de 6 en premier ou dernier");
+        System.out.println(myBool ? "Le premier ou le dernier élément = 6" : "pas de 6 en premier ou dernier");
 
     }
 }

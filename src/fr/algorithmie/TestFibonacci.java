@@ -8,11 +8,10 @@ public class TestFibonacci {
 
 
         System.out.println("Welcome to the Fibonator.\nPlease input the integer you want to see the sequence displayed up to: ");
-        int N =  scanner.nextInt();
+        int N = scanner.nextInt();
 
 
-
-        System.out.println("Generating " + N + " Fibonacci numbers:");
+        System.out.println("Generating " + N + " ranks of the Fibonacci sequence:");
         InteractifFibonacci.Fibonacci(N);
 
 

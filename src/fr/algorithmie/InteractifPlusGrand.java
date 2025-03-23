@@ -10,9 +10,9 @@ public class InteractifPlusGrand {
         int[] nb = new int[10];
 
         System.out.println("Please enter some numbers 10 times: ");
-        int i=0;
-        while(i<10) {
-            System.out.print("Entry #"+(i+1)+": ");
+        int i = 0;
+        while (i < 10) {
+            System.out.print("Entry #" + (i + 1) + ": ");
             nb[i] = scanner.nextInt();
             i++;
         }
@@ -21,13 +21,12 @@ public class InteractifPlusGrand {
 
         int maxVal = nb[0];
 
-        for( i = 0; i< nb.length; i++){
-            if(nb[i] > maxVal){
+        for (i = 0; i < nb.length; i++) {
+            if (nb[i] > maxVal) {
                 maxVal = nb[i];
             }
         }
-        System.out.println("It is... Found it! it's : "+ maxVal);
-
+        System.out.println("It is... Found it! it's : " + maxVal);
 
 
     }

@@ -17,7 +17,7 @@ public class InteractifChiffresSuivants {
 
         for(int i=1; i<=10;i++){
             int c = i+nb;
-            System.out.print(c+ ", ");
+            System.out.print(c+ "; ");
         }
 
     }

@@ -1,10 +1,8 @@
 package fr.algorithmie;
 
-import java.awt.*;
-
 public class FabriquerMur {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         // const
         int A = 1;
@@ -19,15 +17,15 @@ public class FabriquerMur {
         boolean constructible = false;
 
 
-        int QtDeLarges = Math.min(nbBig, taille/B);
+        int QtDeLarges = Math.min(nbBig, taille / B);
         int longueurRestante = taille - (QtDeLarges * B);
 
-        if(longueurRestante <= nbSmall){
-           constructible = true;
-            System.out.println(constructible+" Le mur prend forme!");
+        if (longueurRestante <= nbSmall) {
+            constructible = true;
+            System.out.println(constructible + " Le mur prend forme!");
 
-        } else{
-            System.out.println(constructible+" pas de mur");
+        } else {
+            System.out.println(constructible + " pas de mur");
         }
     }
 

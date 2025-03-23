@@ -9,13 +9,12 @@ public class RechercheMin {
 
         int minVal = myArray[0];
 
-        for(int i = 0; i< myArray.length; i++){
-            if(myArray[i] < minVal){
+        for (int i = 0; i < myArray.length; i++) {
+            if (myArray[i] < minVal) {
                 minVal = myArray[i];
             }
         }
         System.out.println(minVal);
-
 
 
     }

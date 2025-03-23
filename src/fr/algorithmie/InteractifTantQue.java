@@ -11,14 +11,13 @@ public class InteractifTantQue {
         boolean isValid = false;
 
 
-        while(!isValid){
+        while (!isValid) {
             System.out.println("Please enter a number between 1 and 10: ");
             nb = scanner.nextInt();
-            if(nb>=1 && nb <=10){
-                System.out.println("Good job! "+ nb + " is also my favorite number");
+            if (nb >= 1 && nb <= 10) {
+                System.out.println("Good job! " + nb + " is also my favorite number");
                 isValid = true;
-            }
-            else {
+            } else {
                 System.out.println("Wrong, try again");
 
             }
@@ -26,4 +25,3 @@ public class InteractifTantQue {
 
     }
 }
-

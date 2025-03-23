@@ -13,11 +13,10 @@ public class InteractifSommeArithmetique {
         nb = scanner.nextInt();
 
 
-
-        System.out.println("Amazing, you picked "+ nb +"! the sum of all numbers from 1 to " + nb + " is :");
+        System.out.println("Amazing, you picked " + nb + "! the sum of all numbers from 1 to " + nb + " is :");
 
         int sum = 0;
-        for(int i = 1; i<= nb ; i++){
+        for (int i = 1; i <= nb; i++) {
 
             sum += i;
 
